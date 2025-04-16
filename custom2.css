@@ -1,0 +1,31 @@
+/* Nasconde intestazioni */
+thead {
+  display: none;
+}
+
+/* Nasconde numeri di pagina */
+.at-pagination {
+  display: none !important;
+}
+
+/* Griglia con 3 immagini per riga */
+td {
+  display: inline-block !important;
+  width: 30% !important;
+  vertical-align: top;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Sfondo bianco */
+body {
+  background-color: white !important;
+}
+
+/* Centra immagini */
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
